@@ -125,6 +125,7 @@ h2 {
 }
 
 .movies-list-item::before {
+  cursor: pointer;
   position: absolute;
   top: 27px;
   left: 20px;
@@ -141,6 +142,7 @@ h2 {
 }
 
 .checked::before {
+  cursor: pointer;
   position: absolute;
   top: 27px;
   left: 20px;
