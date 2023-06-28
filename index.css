@@ -68,7 +68,7 @@ h2 {
 
 .input {
   padding: 15px 0;
-  width: 411px;
+  width: 550px;
   font-size: 30px;
   line-height: 30px;
   letter-spacing: -0.6px;
@@ -92,6 +92,8 @@ h2 {
   cursor: pointer;
 }
 .movies-list {
+  display: flex;
+  flex-direction: column-reverse;
   list-style: none;
   max-height: 500px;
   overflow-y: auto;
