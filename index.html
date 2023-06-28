@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>MoviesAPP</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="fav.png"
+      type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="title-wrapper">
+        <h1 class="title">СПИСОК ФИЛЬМОВ</h1>
+        <p class="year">2023</p>
+      </div>
+      <h2>Посмотреть</h2>
+    </header>
+
+    <main>
+      <div class="input-area">
+        <input
+          data-input
+          class="input"
+          type="text"
+          placeholder="Добавить фильм" />
+        <button
+          data-add-btn
+          type="button"
+          class="add-btn"></button>
+      </div>
+      <div class="output-area">
+        <ul
+          data-moviesList
+          class="movies-list"></ul>
+      </div>
+    </main>
+    <script src="functions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

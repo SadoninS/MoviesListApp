@@ -1,0 +1,150 @@
+body {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #181818;
+}
+
+h1,
+h2,
+p,
+input,
+button {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+}
+header {
+  width: 100%;
+}
+main {
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+}
+
+.title {
+  margin-left: 328px;
+  width: 183px;
+}
+.year {
+  width: 75px;
+}
+
+.title,
+.year {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 200px;
+  border: 1px solid #6532f8;
+  text-align: center;
+
+  background-color: #6532f8;
+  color: #f3f6f9;
+}
+
+h2 {
+  margin-left: 328px;
+  margin-bottom: 45px;
+  color: #f3f6f9;
+  font-size: 120px;
+  letter-spacing: -4px;
+}
+
+main {
+  margin: 0 auto;
+  padding: 60px 70px;
+  height: fit-content;
+  width: 930px;
+  background-color: #232323;
+}
+
+.input-area {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.input {
+  padding: 15px 0;
+  width: 411px;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  color: #f3f6f9;
+  border: none;
+  outline: none;
+  background-color: #232323;
+  border-bottom: 1px solid #f3f6f9;
+}
+
+.add-btn {
+  margin-left: 10px;
+
+  position: absolute;
+  top: 5px;
+  background-image: url(resourses/arrow.png);
+  width: 62px;
+  height: 62px;
+  background-color: #232323;
+  border: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+
+.movies-list-item {
+  position: relative;
+  margin-bottom: 3px;
+  padding-left: 60px;
+  border-radius: 10px;
+  background-color: #3a3939;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  color: #f3f6f9;
+  font-size: 30px;
+  line-height: 71px;
+  letter-spacing: -0.4px;
+}
+
+.movies-list-item::before {
+  position: absolute;
+  top: 27px;
+  left: 20px;
+  content: '';
+  background-image: url(resourses/uncheck.png);
+  width: 19px;
+  height: 18px;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #3a3939;
+  opacity: 0.5;
+}
+
+.checked::before {
+  position: absolute;
+  top: 27px;
+  left: 20px;
+  content: '';
+  background-image: url(resourses/checked.png);
+  width: 19px;
+  height: 18px;
+}
+
+.del-btn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  background-image: url(resourses/del_uncheck.png);
+  background-color: #3a3939;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
