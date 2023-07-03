@@ -1,4 +1,4 @@
-const moviesListNode = document.querySelector('[output-area]');
+const moviesListNode = document.querySelector('[data-output-area]');
 const addBtnNode = document.querySelector('[data-add-btn]');
 const inputNode = document.querySelector('[data-input]');
 let LS = JSON.parse(localStorage.getItem('moviesList'));
