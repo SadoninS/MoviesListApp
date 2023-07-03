@@ -36,12 +36,12 @@ main {
   margin-left: 328px;
   width: 183px;
 }
-.year {
+.date {
   width: 75px;
 }
 
 .title,
-.year {
+.date {
   margin-bottom: 20px;
   font-size: 15px;
   line-height: 30px;
