@@ -1,6 +1,6 @@
 function saveLS() {
   LS = JSON.stringify(movies);
-  localStorage.setItem('moviesList', LS);
+  localStorage.setItem('moviesListStorage', LS);
 }
 
 function setMovie() {
